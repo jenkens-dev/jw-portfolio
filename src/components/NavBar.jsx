@@ -17,10 +17,10 @@ export class NavBar extends React.Component {
                   <Link to="/">JW</Link>
                </li>
                <li style={{ float: 'right', display: 'inline-block' }}>
-                  Contact
+                  <Link to="/contact">Contact</Link>
                </li>
                <li style={{ float: 'right', display: 'inline-block' }}>
-                  Projects
+                  <Link to="/projects">Projects</Link>
                </li>
                <li style={{ float: 'right', display: 'inline-block' }}>
                   <Link to="/about">About</Link>
