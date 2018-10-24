@@ -1,0 +1,30 @@
+.flexContainer {
+   display: flex;
+}
+
+body {
+   background-color: #3aafa9;
+   color: #feffff;
+}
+
+.navBar {
+   justify-content: space-between;
+   margin: 0px 20px;
+}
+
+.navBar a {
+   text-decoration: none;
+   color: #feffff;
+}
+
+.linkContainer {
+   flex: 1;
+   justify-content: space-between;
+   max-width: 200px;
+}
+
+.item {
+   max-width: 300px;
+   max-height: 300px;
+   margin: 5px;
+}

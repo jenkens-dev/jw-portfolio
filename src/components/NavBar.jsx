@@ -1,31 +1,27 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './styles.css';
 
 export class NavBar extends React.Component {
    render() {
       return (
-         <div>
-            <ul
-               style={{
-                  textDecoration: 'none',
-                  listStyleType: 'none',
-                  margin: '5px',
-                  padding: '5px',
-               }}
-            >
-               <li style={{ display: 'inline' }}>
+         <div className="flexContainer navBar">
+            <div className="flexContainer homeBar">
+               <div>
                   <Link to="/">JW</Link>
-               </li>
-               <li style={{ float: 'right', display: 'inline-block' }}>
-                  <Link to="/contact">Contact</Link>
-               </li>
-               <li style={{ float: 'right', display: 'inline-block' }}>
-                  <Link to="/projects">Projects</Link>
-               </li>
-               <li style={{ float: 'right', display: 'inline-block' }}>
+               </div>
+            </div>
+            <div className="flexContainer linkContainer">
+               <div>
                   <Link to="/about">About</Link>
-               </li>
-            </ul>
+               </div>
+               <div>
+                  <Link to="/projects">Projects</Link>
+               </div>
+               <div>
+                  <Link to="/contact">Contact</Link>
+               </div>
+            </div>
          </div>
       );
    }
