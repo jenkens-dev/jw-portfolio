@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,700');
+
 .flexContainer {
    display: flex;
 }
@@ -5,11 +7,18 @@
 body {
    background-color: #3aafa9;
    color: #feffff;
+   font-family: 'Rubik', sans-serif;
+}
+
+.homeContainer {
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 .navBar {
    justify-content: space-between;
-   margin: 0px 20px;
+   margin: 0px 5px;
 }
 
 .navBar a {
