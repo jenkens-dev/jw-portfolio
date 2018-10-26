@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik:400,700');
 
-.flexContainer {
-   display: flex;
-}
-
 body {
    background-color: #3aafa9;
    color: #feffff;
    font-family: 'Rubik', sans-serif;
+}
+
+.flexContainer {
+   display: flex;
 }
 
 .homeContainer {
@@ -36,4 +36,22 @@ body {
    max-width: 300px;
    max-height: 300px;
    margin: 5px;
+}
+
+div .skills {
+   height: 100px;
+   width: 100px;
+}
+
+.aboutContainer {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.skillsContainer {
+   display: flex;
+   background: #def2f1;
+   border: 4px solid #2b7a78;
 }
