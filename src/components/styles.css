@@ -6,6 +6,11 @@ body {
    font-family: 'Rubik', sans-serif;
 }
 
+.pageContainer {
+   margin: auto;
+   margin-top: 10px;
+}
+
 .flexContainer {
    display: flex;
 }
@@ -54,4 +59,16 @@ div .skills {
    display: flex;
    background: #def2f1;
    border: 4px solid #2b7a78;
+}
+
+@media only screen and (max-width: 1200px) {
+   .pageContainer {
+      max-width: 696px;
+   }
+}
+
+@media only screen and (min-width: 1201px) {
+   .pageContainer {
+      max-width: 1080px;
+   }
 }
