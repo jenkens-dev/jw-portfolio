@@ -6,6 +6,21 @@ import {
    faJsSquare,
    faGitSquare,
    faGithub,
+   faTwitter,
+   faLinkedin,
+   faCodepen,
+   faFreeCodeCamp,
 } from '@fortawesome/free-brands-svg-icons';
 
-library.add(faReact, faHtml5, faCss3Alt, faJsSquare, faGitSquare, faGithub);
+library.add(
+   faReact,
+   faHtml5,
+   faCss3Alt,
+   faJsSquare,
+   faGitSquare,
+   faGithub,
+   faTwitter,
+   faLinkedin,
+   faCodepen,
+   faFreeCodeCamp,
+);
