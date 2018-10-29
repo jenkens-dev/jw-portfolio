@@ -67,6 +67,12 @@ div .skills {
    border: 4px solid #2b7a78;
 }
 
+.mailLink {
+   text-decoration: none;
+   color: #17252a;
+   margin-left: 4px;
+}
+
 @media only screen and (max-width: 1200px) {
    .pageContainer {
       max-width: 696px;

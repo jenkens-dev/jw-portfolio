@@ -50,7 +50,9 @@ export class Contact extends React.Component {
             </div>
             <p>
                Have a question or want to work together contact me via email at
-               jenken131@gmail.com
+               <a className="mailLink" href="mailto:jenken131@gmail.com">
+                  jenken131@gmail.com
+               </a>
             </p>
          </div>
       );
