@@ -6,6 +6,7 @@ export class Home extends React.Component {
       return (
          <div className="homeContainer">
             <h1>Jennifer Williams</h1>
+            <p>Self-taught front end developer</p>
          </div>
       );
    }
