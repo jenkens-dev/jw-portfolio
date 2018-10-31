@@ -1,6 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import FlipOnHover from './FlipOnHover.jsx';
+import ProfilePic from '../images/profile picture.jpg';
 import './styles.css';
 
 export class About extends React.Component {
@@ -8,13 +9,16 @@ export class About extends React.Component {
       return (
          <div className="aboutContainer">
             <h1>About Me</h1>
-            <p>
-               My name is Jennifer Williams and I am a front-end developer in
-               Seattle, Washington. I graduated with a degree in Zoology but
-               quickly found my passion for programming after taking a Java
-               class in my free time. When I'm not programming I enjoy watching
-               esports, cuddling my dog, and rock climbing!
-            </p>
+            <div className="textContainer">
+               <img className="profilePic" src={ProfilePic} alt="" />
+               <p>
+                  My name is Jennifer Williams and I am a front-end developer in
+                  Seattle, Washington. I graduated with a degree in Zoology but
+                  quickly found my passion for programming after taking a Java
+                  class in my free time. When I'm not programming I enjoy
+                  watching esports, cuddling my dog, and rock climbing!
+               </p>
+            </div>
             <h2>My Skills</h2>
             <div className="skillsContainer">
                <FlipOnHover back={<div>React</div>}>
