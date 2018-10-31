@@ -18,9 +18,11 @@ html {
 }
 
 .pageContainer {
-   margin: auto;
+   margin-left: 10%;
+   margin-right: 10%;
    margin-top: 10px;
    height: 100%;
+   min-width: 600px;
 }
 
 .flexContainer {
@@ -58,12 +60,6 @@ html {
    flex: 1;
    justify-content: space-between;
    max-width: 200px;
-}
-
-.item {
-   max-width: 300px;
-   max-height: 300px;
-   margin: 5px;
 }
 
 div .skills {
@@ -106,6 +102,31 @@ div .skills {
    margin-left: 5px;
 }
 
+.projectsContainer {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.projectsContainer > img {
+   width: 30%;
+   border: 4px solid #2b7a78;
+   margin-bottom: 3%;
+}
+
+.basicFlexContainer {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+/* .item {
+   max-width: 225px;
+   max-height: 225px;
+   margin: 10px;
+} */
+
 @keyframes slideDown {
    from {
       margin-top: 10%;
@@ -135,10 +156,10 @@ div .skills {
       opacity: 1;
    }
 }
-
+/* 
 @media only screen and (max-width: 1200px) {
    .pageContainer {
-      max-width: 696px;
+      max-width: 796px;
    }
 }
 
@@ -146,4 +167,4 @@ div .skills {
    .pageContainer {
       max-width: 1080px;
    }
-}
+} */
