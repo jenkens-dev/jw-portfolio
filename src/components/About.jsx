@@ -1,5 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import FlipOnHover from './FlipOnHover.jsx';
 import './styles.css';
 
 export class About extends React.Component {
@@ -16,36 +17,48 @@ export class About extends React.Component {
             </p>
             <h2>My Skills</h2>
             <div className="skillsContainer">
-               <FontAwesomeIcon
-                  style={{ color: '#61dafb', margin: '5px' }}
-                  size="5x"
-                  icon={['fab', 'react']}
-               />
-               <FontAwesomeIcon
-                  style={{ color: '#E44D26', margin: '5px' }}
-                  size="5x"
-                  icon={['fab', 'html5']}
-               />
-               <FontAwesomeIcon
-                  style={{ color: '#1572B6', margin: '5px' }}
-                  size="5x"
-                  icon={['fab', 'css3-alt']}
-               />
-               <FontAwesomeIcon
-                  style={{ color: '#F0DB4F', margin: '5px' }}
-                  size="5x"
-                  icon={['fab', 'js-square']}
-               />
-               <FontAwesomeIcon
-                  style={{ color: '#f14e32', margin: '5px' }}
-                  size="5x"
-                  icon={['fab', 'git-square']}
-               />
-               <FontAwesomeIcon
-                  style={{ color: '#24292e', margin: '5px' }}
-                  size="5x"
-                  icon={['fab', 'github']}
-               />
+               <FlipOnHover back={<div>React</div>}>
+                  <FontAwesomeIcon
+                     style={{ color: '#61dafb', margin: '5px' }}
+                     size="5x"
+                     icon={['fab', 'react']}
+                  />
+               </FlipOnHover>
+               <FlipOnHover back={<div>HTML5</div>}>
+                  <FontAwesomeIcon
+                     style={{ color: '#E44D26', margin: '5px' }}
+                     size="5x"
+                     icon={['fab', 'html5']}
+                  />
+               </FlipOnHover>
+               <FlipOnHover back={<div>CSS3</div>}>
+                  <FontAwesomeIcon
+                     style={{ color: '#1572B6', margin: '5px' }}
+                     size="5x"
+                     icon={['fab', 'css3-alt']}
+                  />
+               </FlipOnHover>
+               <FlipOnHover back={<div>JavaScript</div>}>
+                  <FontAwesomeIcon
+                     style={{ color: '#F0DB4F', margin: '5px' }}
+                     size="5x"
+                     icon={['fab', 'js-square']}
+                  />
+               </FlipOnHover>
+               <FlipOnHover back={<div>Git</div>}>
+                  <FontAwesomeIcon
+                     style={{ color: '#f14e32', margin: '5px' }}
+                     size="5x"
+                     icon={['fab', 'git-square']}
+                  />
+               </FlipOnHover>
+               <FlipOnHover back={<div>GitHub</div>}>
+                  <FontAwesomeIcon
+                     style={{ color: '#24292e', margin: '5px' }}
+                     size="5x"
+                     icon={['fab', 'github']}
+                  />
+               </FlipOnHover>
             </div>
          </div>
       );
