@@ -1,4 +1,5 @@
 import React from 'react';
+import ProjectImage from './ProjectImage';
 import randomQuoteImg from '../images/RandomQuote2.png';
 import JavaScriptCalc from '../images/JavaScriptCalc.png';
 import GuessGaming from '../images/GuessingGame.png';
@@ -13,14 +14,32 @@ export class Projects extends React.Component {
          <div>
             <div className="basicFlexContainer">
                <h1>Projects</h1>
-
                <div className="projectsContainer">
-                  <img src={randomQuoteImg} alt="" />
-                  <img src={JavaScriptCalc} alt="" />
-                  <img src={GuessGaming} alt="" />
-                  <img src={Pomodoro} alt="" />
-                  <img src={TwitchLayout} alt="" />
-                  <img src={TicTac} alt="" />
+                  <ProjectImage
+                     href="https://codepen.io/Taliaa/pen/XVZQjJ"
+                     src={randomQuoteImg}
+                  />
+                  {/* <div className="summary">Testing</div> */}
+                  <ProjectImage
+                     href="https://codepen.io/Taliaa/pen/GQRePd"
+                     src={JavaScriptCalc}
+                  />
+                  <ProjectImage
+                     href="https://codepen.io/Taliaa/pen/PRobBy"
+                     src={GuessGaming}
+                  />
+                  <ProjectImage
+                     hrf="https://codepen.io/Taliaa/pen/oEjayP"
+                     src={Pomodoro}
+                  />
+                  <ProjectImage
+                     href="https://codepen.io/Taliaa/pen/ypPdBR"
+                     src={TwitchLayout}
+                  />
+                  <ProjectImage
+                     href="https://codepen.io/Taliaa/pen/GQMNbe"
+                     src={TicTac}
+                  />
                </div>
                <p>
                   To view my other projects visit my&nbsp;
