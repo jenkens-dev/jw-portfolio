@@ -75,6 +75,15 @@ div .skills {
    height: 100%;
 }
 
+.textContainer {
+   display: flex;
+}
+
+.profilePic {
+   border: 4px solid #2b7a78;
+   margin-right: 20px;
+}
+
 .skillsContainer {
    display: flex;
    background: #def2f1;
