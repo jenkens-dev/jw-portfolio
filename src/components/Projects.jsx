@@ -1,5 +1,6 @@
 import React from 'react';
 import ProjectImage from './ProjectImage';
+import FlipOnHover from './FlipOnHover';
 import randomQuoteImg from '../images/RandomQuote2.png';
 import JavaScriptCalc from '../images/JavaScriptCalc.png';
 import GuessGaming from '../images/GuessingGame.png';
@@ -18,27 +19,32 @@ export class Projects extends React.Component {
                   <ProjectImage
                      href="https://codepen.io/Taliaa/pen/XVZQjJ"
                      src={randomQuoteImg}
+                     back={<div>Random Quote Generator</div>}
                   />
-                  {/* <div className="summary">Testing</div> */}
                   <ProjectImage
                      href="https://codepen.io/Taliaa/pen/GQRePd"
                      src={JavaScriptCalc}
+                     back={<div>JavaScript Calculator</div>}
                   />
                   <ProjectImage
                      href="https://codepen.io/Taliaa/pen/PRobBy"
                      src={GuessGaming}
+                     back={<div>RBG Color Game</div>}
                   />
                   <ProjectImage
                      hrf="https://codepen.io/Taliaa/pen/oEjayP"
                      src={Pomodoro}
+                     back={<div>Pomodoro Clock</div>}
                   />
                   <ProjectImage
                      href="https://codepen.io/Taliaa/pen/ypPdBR"
                      src={TwitchLayout}
+                     back={<div>Twitch API display</div>}
                   />
                   <ProjectImage
                      href="https://codepen.io/Taliaa/pen/GQMNbe"
                      src={TicTac}
+                     back={<div>Tic Tac Toe Game</div>}
                   />
                </div>
                <p>
