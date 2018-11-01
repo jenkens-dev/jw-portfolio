@@ -211,6 +211,11 @@ div .skills {
    border: 4px solid #2b7a78;
 }
 
+.projectsContainer a {
+   text-decoration: none;
+   color: #2b7a78;
+}
+
 .basicFlexContainer {
    display: flex;
    flex-direction: column;
@@ -224,7 +229,6 @@ div .skills {
    background: #def2f1;
    height: 100%;
    width: 100%;
-   color: #2b7a78;
 }
 
 @keyframes slideDown {
