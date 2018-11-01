@@ -17,34 +17,76 @@ export class Projects extends React.Component {
                <h1>Projects</h1>
                <div className="projectsContainer">
                   <ProjectImage
-                     href="https://codepen.io/Taliaa/pen/XVZQjJ"
                      src={randomQuoteImg}
-                     back={<div>Random Quote Generator</div>}
+                     back={
+                        <a
+                           href="https://codepen.io/Taliaa/pen/XVZQjJ"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                        >
+                           Random Quote Generator
+                        </a>
+                     }
                   />
                   <ProjectImage
-                     href="https://codepen.io/Taliaa/pen/GQRePd"
                      src={JavaScriptCalc}
-                     back={<div>JavaScript Calculator</div>}
+                     back={
+                        <a
+                           href="https://codepen.io/Taliaa/pen/GQRePd"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                        >
+                           JavaScript Calculator
+                        </a>
+                     }
                   />
                   <ProjectImage
-                     href="https://codepen.io/Taliaa/pen/PRobBy"
                      src={GuessGaming}
-                     back={<div>RBG Color Game</div>}
+                     back={
+                        <a
+                           href="https://codepen.io/Taliaa/pen/PRobBy"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                        >
+                           RBG Color Game
+                        </a>
+                     }
                   />
                   <ProjectImage
-                     hrf="https://codepen.io/Taliaa/pen/oEjayP"
                      src={Pomodoro}
-                     back={<div>Pomodoro Clock</div>}
+                     back={
+                        <a
+                           href="https://codepen.io/Taliaa/pen/oEjayP"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                        >
+                           Pomodoro Clock
+                        </a>
+                     }
                   />
                   <ProjectImage
-                     href="https://codepen.io/Taliaa/pen/ypPdBR"
                      src={TwitchLayout}
-                     back={<div>Twitch API display</div>}
+                     back={
+                        <a
+                           href="https://codepen.io/Taliaa/pen/ypPdBR"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                        >
+                           Twitch API display
+                        </a>
+                     }
                   />
                   <ProjectImage
-                     href="https://codepen.io/Taliaa/pen/GQMNbe"
                      src={TicTac}
-                     back={<div>Tic Tac Toe Game</div>}
+                     back={
+                        <a
+                           href="https://codepen.io/Taliaa/pen/GQMNbe"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                        >
+                           Tic Tac Toe Game
+                        </a>
+                     }
                   />
                </div>
                <p>
