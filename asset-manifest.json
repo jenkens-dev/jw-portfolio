@@ -1,7 +1,7 @@
 {
-  "main.css": "/jw-portfolio/static/css/main.54919d86.chunk.css",
-  "main.js": "/jw-portfolio/static/js/main.19d23fe9.chunk.js",
-  "main.js.map": "/jw-portfolio/static/js/main.19d23fe9.chunk.js.map",
+  "main.css": "/jw-portfolio/static/css/main.ed5805c7.chunk.css",
+  "main.js": "/jw-portfolio/static/js/main.002dfd4b.chunk.js",
+  "main.js.map": "/jw-portfolio/static/js/main.002dfd4b.chunk.js.map",
   "static/js/1.2f0e2fa6.chunk.js": "/jw-portfolio/static/js/1.2f0e2fa6.chunk.js",
   "static/js/1.2f0e2fa6.chunk.js.map": "/jw-portfolio/static/js/1.2f0e2fa6.chunk.js.map",
   "runtime~main.js": "/jw-portfolio/static/js/runtime~main.3b0a37a9.js",
@@ -12,8 +12,8 @@
   "static/media/TwitchAPI.png": "/jw-portfolio/static/media/TwitchAPI.53dac191.png",
   "static/media/TicTac.png": "/jw-portfolio/static/media/TicTac.4d9b8ed2.png",
   "static/media/JavaScriptCalc.png": "/jw-portfolio/static/media/JavaScriptCalc.b555ea33.png",
-  "static/css/main.54919d86.chunk.css.map": "/jw-portfolio/static/css/main.54919d86.chunk.css.map",
+  "static/css/main.ed5805c7.chunk.css.map": "/jw-portfolio/static/css/main.ed5805c7.chunk.css.map",
   "index.html": "/jw-portfolio/index.html",
-  "precache-manifest.eac3a9331a0698f611b8d88d9ad4c365.js": "/jw-portfolio/precache-manifest.eac3a9331a0698f611b8d88d9ad4c365.js",
+  "precache-manifest.b98e9b13585e126bbc13e0a715d565b7.js": "/jw-portfolio/precache-manifest.b98e9b13585e126bbc13e0a715d565b7.js",
   "service-worker.js": "/jw-portfolio/service-worker.js"
 }
